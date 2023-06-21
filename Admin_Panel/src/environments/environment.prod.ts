@@ -8,6 +8,6 @@
 */
 export const environment = {
   production: true,
-  baseUrl: 'https://your-api-url.com/public/api/',
-  imageUrl: 'https://your-api-url.com/public/storage/images/',
+  baseUrl: 'https://staging-api.washzambia.com/public/api/',
+  imageUrl: 'https://staging-api.washzambia.com/public/storage/images/',
 };

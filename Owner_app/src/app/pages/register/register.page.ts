@@ -141,6 +141,7 @@ export class RegisterPage implements OnInit {
       const navUrl = event.url;
       if (navUrl.includes('success_verified')) {
         const urlItems = new URL(event.url);
+        this.mobileVerify = true;
         console.log(urlItems);
         console.log('ok create account');
         // this.createAccount();

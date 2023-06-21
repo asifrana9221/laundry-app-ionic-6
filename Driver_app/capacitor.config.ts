@@ -1,8 +1,8 @@
 import { CapacitorConfig } from '@capacitor/cli';
 
 const config: CapacitorConfig = {
-  appId: 'io.initappz.capacitor.laundry.driver',
-  appName: 'Driver Laundry Wala',
+  appId: 'io.washzambia.driver',
+  appName: 'Wash Zambia Driver',
   webDir: 'www',
   bundledWebRuntime: false
 };

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "526766581338",
+    "project_id": "washzambia-fe353",
+    "storage_bucket": "washzambia-fe353.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:526766581338:android:60feb16991d39500581a63",
+        "android_client_info": {
+          "package_name": "io.washzambia.owner"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "526766581338-87b61tfmn6fiirhgglafnpho4oql327g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDwlzxirfsVg1C1enHwXM7Q3f30MvHSG9s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "526766581338-87b61tfmn6fiirhgglafnpho4oql327g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

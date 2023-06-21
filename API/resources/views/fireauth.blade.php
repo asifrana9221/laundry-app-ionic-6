@@ -152,14 +152,12 @@
 
     <script type="text/javascript">
        const config = {
-            apiKey: "AIzaSyBuzAchIHNyH-iEL-0aYImLp_t_vCa9rRU",
-            authDomain: "foodies-25317.firebaseapp.com",
-            databaseURL: "https://foodies-25317.firebaseio.com",
-            projectId: "foodies-25317",
-            storageBucket: "foodies-25317.appspot.com",
-            messagingSenderId: "62057288644",
-            appId: "1:62057288644:web:e2452af9d3051bedd74a91",
-            measurementId: "G-FG669D56ES"
+        apiKey: "AIzaSyDSZ-7kkFEOrJcpKa4LsAOs4kqv60If5BY",
+  authDomain: "washzambia-fe353.firebaseapp.com",
+  projectId: "washzambia-fe353",
+  storageBucket: "washzambia-fe353.appspot.com",
+  messagingSenderId: "526766581338",
+  appId: "1:526766581338:web:f6a6ce884840366b581a63"
         };
         firebase.initializeApp(config);
     </script>
