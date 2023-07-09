@@ -79,7 +79,8 @@ export class OrderDetailsComponent implements OnInit {
     this.util.translate('Razorpay'),
     this.util.translate('Instamojo'),
     this.util.translate('Paystack'),
-    this.util.translate('Flutterwave')
+    this.util.translate('Flutterwave'),
+    this.util.translate('DPO')
   ];
   constructor(
     private route: ActivatedRoute,
@@ -132,7 +133,7 @@ export class OrderDetailsComponent implements OnInit {
 
         console.log('==>', info.total);
         this.orderTotal = info.total;
-        this.grandTotal = info.total.toFixed(2);
+        this.grandTotal =Number(info.total).toFixed(2);
         this.orderStatus = this.orderStatusNames[info.status];
         this.datetime = moment(info.created_at).format('dddd, MMMM Do YYYY');
         this.payMethod = info.pay_method == 0 ? 'COD' : 'PAID';

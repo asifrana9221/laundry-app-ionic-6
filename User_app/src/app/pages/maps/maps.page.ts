@@ -51,7 +51,9 @@ export class MapsPage implements OnInit {
       this.apiCalled = true;
       if (data && data.status && data.status == 200 && data.data && data.data.length) {
         this.list = data.data;
+        console.log(data.data);
         this.distanceType = data.distanceType;
+        this.list = this.list.filter(p => p.id === 2);
         this.list = this.list.sort((a, b) =>
           parseFloat(a.distance) < parseFloat(b.distance) ? -1
             : (parseFloat(a.distance) > parseFloat(b.distance) ? 1 : 0));

@@ -7,12 +7,14 @@ import { HttpClient, HttpHeaders } from '@angular/common/http';
 })
 export class ApiService {
   baseUrl: any = '';
+  paymentURL:any = ''
   mediaURL: any = '';
   constructor(
     private http: HttpClient,
   ) {
     this.baseUrl = environment.baseUrl + 'api/';
     this.mediaURL = environment.baseUrl + 'storage/images/';
+    this.paymentURL =environment.paymentURL
   }
 
   uploadFile(files: File[]) {
@@ -158,7 +160,7 @@ export class ApiService {
         headers: new HttpHeaders()
           .set('Content-Type', 'application/x-www-form-urlencoded')
       };
-      this.http.get('assets/jsons/' + name, header).subscribe((data) => {
+      this.http.get('assets/json/' + name, header).subscribe((data) => {
         resolve(data);
       }, error => {
         reject(error);

@@ -1,0 +1,77 @@
+<ion-content>
+<div class="skip-div">
+  <ion-text class="skip-text" (click)="start()">SKIP</ion-text>
+</div>
+<div class="intro-slider_div">
+  <swiper-container
+    #swiper
+    (afterinit)="swiperReady()"
+    (slidechange)="swiperSlideChanged($event)"
+    slides-per-view="1"
+    speed="500"
+    loop="false"
+    css-mode="true"
+    space-between="10"
+    [pagination]="true"
+  >
+    <swiper-slide>
+      <img src="../../../assets/imgs/intro/intro-1.png" />
+      <h2>Looking for a laundry service at your door step</h2>
+      <p>
+        Use our laundry service app to setup a suitable laundry service to you
+      </p>
+      <div class="button-row">
+        <ion-button
+          class="f-right"
+          (click)="goNext()"
+          size="default"
+          shape="round"
+          >Next <ion-icon name="chevron-forward-outline"></ion-icon>
+        </ion-button>
+      </div>
+    </swiper-slide>
+    <swiper-slide>
+      <img src="../../../assets/imgs/intro/intro-2.png" />
+      <h2>Select our service</h2>
+      <p>Select any kind of service you need from our mobile app</p>
+      <div class="button-row">
+        <ion-button
+          class="f-left"
+          (click)="goPrev()"
+          size="default"
+          shape="round"
+          ><ion-icon name="chevron-back-outline"></ion-icon> Back
+        </ion-button>
+        <ion-button
+          class="f-right"
+          (click)="goNext()"
+          size="default"
+          shape="round"
+          >Next <ion-icon name="chevron-forward-outline"></ion-icon>
+        </ion-button>
+      </div>
+    </swiper-slide>
+    <swiper-slide>
+      <img src="../../../assets/imgs/intro/intro-3.png" />
+      <h2>Express delivery for special services</h2>
+      <p>our agents will deliver your clothes at your doorsteps</p>
+      <div class="button-row">
+        <ion-button
+          class="f-left"
+          (click)="goPrev()"
+          size="default"
+          shape="round"
+          ><ion-icon name="chevron-back-outline"></ion-icon> Back
+        </ion-button>
+        <ion-button
+          class="f-right"
+          (click)="start()"
+          size="default"
+          shape="round"
+          >Start <ion-icon name="chevron-forward-outline"></ion-icon>
+        </ion-button>
+      </div>
+    </swiper-slide>
+  </swiper-container>
+</div>
+</ion-content>

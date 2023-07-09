@@ -53,6 +53,7 @@ export class CheckoutPage implements OnInit {
 
   currentDate: any = '';
   currentWeek = 0;
+  currency_code = 0;
   pickupDays: any[] = [];
   deliveryDays: any[] = [];
   initDate: any = '';
@@ -562,7 +563,9 @@ export class CheckoutPage implements OnInit {
           this.payMethodName = 'flutterwave';
           this.payWithFlutterwave();
         } else if (this.pay_method == 9) {
-          console.log('paykun');
+          this.payMethodName = 'dpo';
+          this.payWithDPO();
+          console.log('dpo');
         }
       }
     });
@@ -613,6 +616,7 @@ export class CheckoutPage implements OnInit {
     console.log(payMethod);
     if (payMethod && payMethod.length) {
       this.payName = payMethod[0].name;
+      this.currency_code = payMethod[0].currency_code;
     }
   }
 
@@ -744,7 +748,53 @@ export class CheckoutPage implements OnInit {
     });
     console.log('browser=> end');
   }
-
+  async payWithDPO() {
+    const options: InAppBrowserOptions = {
+      location: 'no',
+      clearcache: 'yes',
+      zoom: 'yes',
+      toolbar: 'yes',
+      closebuttoncaption: 'close'
+    };
+    let req ={
+    CompanyToken: "C34F41A5-CEB8-46C9-9A78-5566B6599A9F",
+    Request: "createToken",
+    ServiceType: "76757",
+    ServiceDescription: "LAUNDRY SERVICE",
+    ServiceDate: "2013/12/20 19:00",
+    PaymentCurrency: this.currency_code,
+    PaymentAmount: this.cart.grandTotal,
+    RedirectURL: "https://staging-api.washzambia.com/public/api/v1/success_payments",
+    BackURL: "https://staging-api.washzambia.com/public/api/v1/success_payments"
+    }
+    this.api.post_private('v1/dpo/create-token',req).then((data: any) => {
+      console.log(data);
+      const browser = this.iab.create(this.api.paymentURL + data?.TransToken, '_blank', options);
+      console.log('opended');
+      console.log('browser=>');
+      browser.on('loadstop').subscribe(event => {
+        console.log('event?;>11', event);
+        const navUrl = event.url;
+        console.log(navUrl.includes('success_payments'), navUrl.includes('failed_payments'));
+        if (navUrl.includes('success_payments') || navUrl.includes('failed_payments')) {
+          browser.close();
+          if (navUrl.includes('success_payments')) {
+            const urlItems = new URL(event.url);
+            console.log(urlItems);
+            const orderId = urlItems.searchParams.get('pay_id');
+            const param = {
+              key: orderId,
+            };
+            this.createOrder(JSON.stringify(param));
+          } else {
+            this.util.errorToast(this.util.translate('Something went wrong while payments. please contact administrator'));
+          }
+        }
+  
+      });
+      console.log('browser=> end');
+    })
+  }
   async payWithPayTm() {
     const options: InAppBrowserOptions = {
       location: 'no',

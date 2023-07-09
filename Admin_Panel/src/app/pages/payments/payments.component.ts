@@ -65,7 +65,10 @@ export class PaymentsComponent implements OnInit {
     sk: '',
     pk: ''
   }
-
+  dpoCreds = {
+    client_id: '',
+    client_secret: ''
+  }
   languages: any[] = [];
   translations: any[] = [];
 
@@ -164,6 +167,7 @@ export class PaymentsComponent implements OnInit {
   }
 
   getPaymentInfo() {
+    debugger;
     this.util.show();
     this.api.post_private('v1/payments/getPaymentInfo', { id: this.paymentID }).then((data: any) => {
       this.util.hide();
@@ -266,6 +270,17 @@ export class PaymentsComponent implements OnInit {
             }
           }
         }
+                // DPO
+                if (info.id == 9) {
+                  if (((x) => { try { JSON.parse(x); return true; } catch (e) { return false } })(info.creds)) {
+                    const payCreds = JSON.parse(info.creds);
+                    console.log(payCreds);
+                    if (payCreds && payCreds != null && payCreds != 'null') {
+                      console.log('assign', payCreds);
+                      this.dpoCreds = payCreds;
+                    }
+                  }
+                }
         this.largeModal.show();
       }
     }, error => {
@@ -347,7 +362,13 @@ export class PaymentsComponent implements OnInit {
         }
         credentials = JSON.stringify(this.flutterwaveCreds);
       }
-
+      if (this.paymentID == 9) {
+        if (this.dpoCreds.client_id == '' || !this.dpoCreds.client_id || this.dpoCreds.client_secret == '' || !this.dpoCreds.client_secret) {
+          this.util.error(this.util.translate('Credentials missings'));
+          return false;
+        }
+        credentials = JSON.stringify(this.dpoCreds);
+      }
       const param = {
         id: this.paymentID,
         name: this.name,

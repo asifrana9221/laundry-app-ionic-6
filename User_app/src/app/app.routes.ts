@@ -143,4 +143,8 @@ export const routes: Routes = [
     path: 'wallet',
     loadComponent: () => import('./pages/wallet/wallet.page').then(m => m.WalletPage)
   },
+  {
+    path: 'intro',
+    loadComponent: () => import('./pages/intro/intro.page').then( m => m.IntroPage)
+  },
 ];

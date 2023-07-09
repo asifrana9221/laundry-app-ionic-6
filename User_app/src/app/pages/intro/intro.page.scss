@@ -1,0 +1,71 @@
+
+swiper-container {
+    height: 100%;
+  }
+
+  swiper-slide {
+    display: block;
+    z-index: 9999999;
+  }
+.intro-slider_div{
+    height: 93%;
+    --offset-bottom: auto!important;
+    --overflow: hidden;
+    overflow: auto;
+    &::-webkit-scrollbar {
+      display: none;
+    }
+}
+  swiper-slide h2 {
+    text-align: center;
+    color: #4e9bc3;
+    font-size: 37px;
+    font-weight: bold;
+  }
+  swiper-slide img {
+    pointer-events: none;
+  }
+
+  b {
+    font-weight: 500;
+  }
+
+  p {
+    padding: 0 40px;
+    font-size: 24px;
+    color: black;
+    text-align: center;
+  }
+
+  p b {
+    color: var(--ion-text-color, #000000);
+  }
+  .skip-div{
+    text-align: end;
+    padding: 15px;
+  }
+  .skip-text{
+    font-size: 30px;
+    font-weight: bold;
+    color: #0c9dc4;
+  }
+  .button-row{
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .f-left{
+    float: left;
+  }
+  .f-right{
+    float: right;
+  }
+  .f-right-1{
+    float: right;
+    position: relative;
+    bottom: 10px;
+  }
+  .f-left-1{
+    float: left;
+    position: relative;
+    bottom: 10px;
+  }

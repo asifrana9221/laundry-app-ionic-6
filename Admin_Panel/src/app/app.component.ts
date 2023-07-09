@@ -21,7 +21,7 @@ import { TranslateService } from '@ngx-translate/core';
   template: '<router-outlet></router-outlet>',
 })
 export class AppComponent implements OnInit {
-  title = 'Washing Wala Administrator';
+  title = 'Wash Laundry';
 
   constructor(
     private router: Router,

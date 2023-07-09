@@ -26,6 +26,7 @@ export class LocationPage implements OnInit {
   }
 
   ngOnInit() {
+    // this.onLocation();
   }
 
   onLocation() {

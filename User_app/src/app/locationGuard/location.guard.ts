@@ -14,7 +14,7 @@ export class LocationGuard implements CanActivate {
     if (location && location != null && location !== 'null') {
       return true;
     }
-    this.router.navigate(['/location']);
+    this.router.navigate(['/intro']);
     return false;
   }
 }

@@ -383,6 +383,7 @@
   "STRIPE_KEY": "Stripe_key",
   "STRIPE_SECRET": "Stripe_secret",
   "PAYPAL_CLIENT_ID": "Paypal_client_id",
+  "DPO_Company_Token": "DPO_Company_Token",
   "PAYPAL_CLIENT_SECRET": "Paypal_client_secret",
   "PAYTM_ENVIRONMENT": "Paytm_environment",
   "TEST": "परीक्षण",

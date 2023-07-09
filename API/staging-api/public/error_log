@@ -1,0 +1,770 @@
+[19-Jun-2023 12:51:04 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Error::getStatusCode() in /home/washzamb/staging-api/app/Exceptions/Handler.php:78
+Stack trace:
+#0 /home/washzamb/staging-api/app/Exceptions/Handler.php(51): App\Exceptions\Handler->handleException()
+#1 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(439): App\Exceptions\Handler->App\Exceptions\{closure}()
+#2 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(369): Illuminate\Foundation\Exceptions\Handler->renderViaCallbacks()
+#3 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(229): Illuminate\Foundation\Exceptions\Handler->render()
+#4 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(206): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#5 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(266): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#6 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#7 {main}
+  thrown in /home/washzamb/staging-api/app/Exceptions/Handler.php on line 78
+[19-Jun-2023 12:54:42 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Error::getStatusCode() in /home/washzamb/staging-api/app/Exceptions/Handler.php:78
+Stack trace:
+#0 /home/washzamb/staging-api/app/Exceptions/Handler.php(51): App\Exceptions\Handler->handleException()
+#1 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(439): App\Exceptions\Handler->App\Exceptions\{closure}()
+#2 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(369): Illuminate\Foundation\Exceptions\Handler->renderViaCallbacks()
+#3 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(229): Illuminate\Foundation\Exceptions\Handler->render()
+#4 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(206): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#5 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(266): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#6 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#7 {main}
+  thrown in /home/washzamb/staging-api/app/Exceptions/Handler.php on line 78
+[19-Jun-2023 13:11:53 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Error::getStatusCode() in /home/washzamb/staging-api/app/Exceptions/Handler.php:78
+Stack trace:
+#0 /home/washzamb/staging-api/app/Exceptions/Handler.php(51): App\Exceptions\Handler->handleException()
+#1 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(439): App\Exceptions\Handler->App\Exceptions\{closure}()
+#2 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(369): Illuminate\Foundation\Exceptions\Handler->renderViaCallbacks()
+#3 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(229): Illuminate\Foundation\Exceptions\Handler->render()
+#4 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(206): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#5 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(266): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#6 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#7 {main}
+  thrown in /home/washzamb/staging-api/app/Exceptions/Handler.php on line 78
+[19-Jun-2023 13:13:36 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Error::getStatusCode() in /home/washzamb/staging-api/app/Exceptions/Handler.php:78
+Stack trace:
+#0 /home/washzamb/staging-api/app/Exceptions/Handler.php(51): App\Exceptions\Handler->handleException()
+#1 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(439): App\Exceptions\Handler->App\Exceptions\{closure}()
+#2 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(369): Illuminate\Foundation\Exceptions\Handler->renderViaCallbacks()
+#3 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(229): Illuminate\Foundation\Exceptions\Handler->render()
+#4 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(206): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#5 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(266): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#6 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#7 {main}
+  thrown in /home/washzamb/staging-api/app/Exceptions/Handler.php on line 78
+[20-Jun-2023 04:32:06 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Error::getStatusCode() in /home/washzamb/staging-api/app/Exceptions/Handler.php:78
+Stack trace:
+#0 /home/washzamb/staging-api/app/Exceptions/Handler.php(51): App\Exceptions\Handler->handleException()
+#1 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(439): App\Exceptions\Handler->App\Exceptions\{closure}()
+#2 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(369): Illuminate\Foundation\Exceptions\Handler->renderViaCallbacks()
+#3 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(229): Illuminate\Foundation\Exceptions\Handler->render()
+#4 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(206): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#5 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(266): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#6 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#7 {main}
+  thrown in /home/washzamb/staging-api/app/Exceptions/Handler.php on line 78
+[20-Jun-2023 08:12:33 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Error::getStatusCode() in /home/washzamb/staging-api/app/Exceptions/Handler.php:78
+Stack trace:
+#0 /home/washzamb/staging-api/app/Exceptions/Handler.php(51): App\Exceptions\Handler->handleException()
+#1 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(439): App\Exceptions\Handler->App\Exceptions\{closure}()
+#2 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(369): Illuminate\Foundation\Exceptions\Handler->renderViaCallbacks()
+#3 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(229): Illuminate\Foundation\Exceptions\Handler->render()
+#4 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(206): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#5 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(266): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#6 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#7 {main}
+  thrown in /home/washzamb/staging-api/app/Exceptions/Handler.php on line 78
+[20-Jun-2023 08:26:09 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Error::getStatusCode() in /home/washzamb/staging-api/app/Exceptions/Handler.php:78
+Stack trace:
+#0 /home/washzamb/staging-api/app/Exceptions/Handler.php(51): App\Exceptions\Handler->handleException()
+#1 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(439): App\Exceptions\Handler->App\Exceptions\{closure}()
+#2 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(369): Illuminate\Foundation\Exceptions\Handler->renderViaCallbacks()
+#3 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(229): Illuminate\Foundation\Exceptions\Handler->render()
+#4 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(206): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#5 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(266): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#6 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#7 {main}
+  thrown in /home/washzamb/staging-api/app/Exceptions/Handler.php on line 78
+[20-Jun-2023 09:10:13 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Error::getStatusCode() in /home/washzamb/staging-api/app/Exceptions/Handler.php:78
+Stack trace:
+#0 /home/washzamb/staging-api/app/Exceptions/Handler.php(51): App\Exceptions\Handler->handleException()
+#1 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(439): App\Exceptions\Handler->App\Exceptions\{closure}()
+#2 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(369): Illuminate\Foundation\Exceptions\Handler->renderViaCallbacks()
+#3 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(229): Illuminate\Foundation\Exceptions\Handler->render()
+#4 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(206): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#5 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(266): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#6 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#7 {main}
+  thrown in /home/washzamb/staging-api/app/Exceptions/Handler.php on line 78
+[20-Jun-2023 09:10:53 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Error::getStatusCode() in /home/washzamb/staging-api/app/Exceptions/Handler.php:78
+Stack trace:
+#0 /home/washzamb/staging-api/app/Exceptions/Handler.php(51): App\Exceptions\Handler->handleException()
+#1 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(439): App\Exceptions\Handler->App\Exceptions\{closure}()
+#2 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(369): Illuminate\Foundation\Exceptions\Handler->renderViaCallbacks()
+#3 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(229): Illuminate\Foundation\Exceptions\Handler->render()
+#4 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(206): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#5 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(266): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#6 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#7 {main}
+  thrown in /home/washzamb/staging-api/app/Exceptions/Handler.php on line 78
+[20-Jun-2023 09:13:07 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Error::getStatusCode() in /home/washzamb/staging-api/app/Exceptions/Handler.php:78
+Stack trace:
+#0 /home/washzamb/staging-api/app/Exceptions/Handler.php(51): App\Exceptions\Handler->handleException()
+#1 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(439): App\Exceptions\Handler->App\Exceptions\{closure}()
+#2 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(369): Illuminate\Foundation\Exceptions\Handler->renderViaCallbacks()
+#3 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(229): Illuminate\Foundation\Exceptions\Handler->render()
+#4 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(206): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#5 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(266): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#6 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#7 {main}
+  thrown in /home/washzamb/staging-api/app/Exceptions/Handler.php on line 78
+[20-Jun-2023 09:15:36 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Error::getStatusCode() in /home/washzamb/staging-api/app/Exceptions/Handler.php:78
+Stack trace:
+#0 /home/washzamb/staging-api/app/Exceptions/Handler.php(51): App\Exceptions\Handler->handleException()
+#1 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(439): App\Exceptions\Handler->App\Exceptions\{closure}()
+#2 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(369): Illuminate\Foundation\Exceptions\Handler->renderViaCallbacks()
+#3 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(229): Illuminate\Foundation\Exceptions\Handler->render()
+#4 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(206): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#5 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(266): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#6 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#7 {main}
+  thrown in /home/washzamb/staging-api/app/Exceptions/Handler.php on line 78
+[21-Jun-2023 05:17:37 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Error::getStatusCode() in /home/washzamb/staging-api/app/Exceptions/Handler.php:78
+Stack trace:
+#0 /home/washzamb/staging-api/app/Exceptions/Handler.php(51): App\Exceptions\Handler->handleException()
+#1 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(439): App\Exceptions\Handler->App\Exceptions\{closure}()
+#2 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(369): Illuminate\Foundation\Exceptions\Handler->renderViaCallbacks()
+#3 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(229): Illuminate\Foundation\Exceptions\Handler->render()
+#4 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(206): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#5 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(266): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#6 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#7 {main}
+  thrown in /home/washzamb/staging-api/app/Exceptions/Handler.php on line 78
+[22-Jun-2023 07:22:41 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Error::getStatusCode() in /home/washzamb/staging-api/app/Exceptions/Handler.php:78
+Stack trace:
+#0 /home/washzamb/staging-api/app/Exceptions/Handler.php(51): App\Exceptions\Handler->handleException()
+#1 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(439): App\Exceptions\Handler->App\Exceptions\{closure}()
+#2 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(369): Illuminate\Foundation\Exceptions\Handler->renderViaCallbacks()
+#3 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(229): Illuminate\Foundation\Exceptions\Handler->render()
+#4 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(206): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#5 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(266): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#6 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#7 {main}
+  thrown in /home/washzamb/staging-api/app/Exceptions/Handler.php on line 78
+[22-Jun-2023 07:22:50 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Error::getStatusCode() in /home/washzamb/staging-api/app/Exceptions/Handler.php:78
+Stack trace:
+#0 /home/washzamb/staging-api/app/Exceptions/Handler.php(51): App\Exceptions\Handler->handleException()
+#1 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(439): App\Exceptions\Handler->App\Exceptions\{closure}()
+#2 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(369): Illuminate\Foundation\Exceptions\Handler->renderViaCallbacks()
+#3 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(229): Illuminate\Foundation\Exceptions\Handler->render()
+#4 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(206): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#5 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(266): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#6 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#7 {main}
+  thrown in /home/washzamb/staging-api/app/Exceptions/Handler.php on line 78
+[23-Jun-2023 07:46:49 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Error::getStatusCode() in /home/washzamb/staging-api/app/Exceptions/Handler.php:78
+Stack trace:
+#0 /home/washzamb/staging-api/app/Exceptions/Handler.php(51): App\Exceptions\Handler->handleException()
+#1 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(439): App\Exceptions\Handler->App\Exceptions\{closure}()
+#2 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(369): Illuminate\Foundation\Exceptions\Handler->renderViaCallbacks()
+#3 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(229): Illuminate\Foundation\Exceptions\Handler->render()
+#4 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(206): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#5 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(266): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#6 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#7 {main}
+  thrown in /home/washzamb/staging-api/app/Exceptions/Handler.php on line 78
+[23-Jun-2023 07:46:53 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Error::getStatusCode() in /home/washzamb/staging-api/app/Exceptions/Handler.php:78
+Stack trace:
+#0 /home/washzamb/staging-api/app/Exceptions/Handler.php(51): App\Exceptions\Handler->handleException()
+#1 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(439): App\Exceptions\Handler->App\Exceptions\{closure}()
+#2 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(369): Illuminate\Foundation\Exceptions\Handler->renderViaCallbacks()
+#3 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(229): Illuminate\Foundation\Exceptions\Handler->render()
+#4 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(206): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#5 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(266): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#6 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#7 {main}
+  thrown in /home/washzamb/staging-api/app/Exceptions/Handler.php on line 78
+[23-Jun-2023 07:46:56 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Error::getStatusCode() in /home/washzamb/staging-api/app/Exceptions/Handler.php:78
+Stack trace:
+#0 /home/washzamb/staging-api/app/Exceptions/Handler.php(51): App\Exceptions\Handler->handleException()
+#1 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(439): App\Exceptions\Handler->App\Exceptions\{closure}()
+#2 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(369): Illuminate\Foundation\Exceptions\Handler->renderViaCallbacks()
+#3 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(229): Illuminate\Foundation\Exceptions\Handler->render()
+#4 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(206): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#5 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(266): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#6 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#7 {main}
+  thrown in /home/washzamb/staging-api/app/Exceptions/Handler.php on line 78
+[23-Jun-2023 07:47:00 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Error::getStatusCode() in /home/washzamb/staging-api/app/Exceptions/Handler.php:78
+Stack trace:
+#0 /home/washzamb/staging-api/app/Exceptions/Handler.php(51): App\Exceptions\Handler->handleException()
+#1 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(439): App\Exceptions\Handler->App\Exceptions\{closure}()
+#2 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(369): Illuminate\Foundation\Exceptions\Handler->renderViaCallbacks()
+#3 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(229): Illuminate\Foundation\Exceptions\Handler->render()
+#4 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(206): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#5 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(266): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#6 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#7 {main}
+  thrown in /home/washzamb/staging-api/app/Exceptions/Handler.php on line 78
+[23-Jun-2023 07:47:04 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Error::getStatusCode() in /home/washzamb/staging-api/app/Exceptions/Handler.php:78
+Stack trace:
+#0 /home/washzamb/staging-api/app/Exceptions/Handler.php(51): App\Exceptions\Handler->handleException()
+#1 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(439): App\Exceptions\Handler->App\Exceptions\{closure}()
+#2 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(369): Illuminate\Foundation\Exceptions\Handler->renderViaCallbacks()
+#3 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(229): Illuminate\Foundation\Exceptions\Handler->render()
+#4 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(206): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#5 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(266): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#6 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#7 {main}
+  thrown in /home/washzamb/staging-api/app/Exceptions/Handler.php on line 78
+[23-Jun-2023 08:16:17 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Error::getStatusCode() in /home/washzamb/staging-api/app/Exceptions/Handler.php:78
+Stack trace:
+#0 /home/washzamb/staging-api/app/Exceptions/Handler.php(51): App\Exceptions\Handler->handleException()
+#1 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(439): App\Exceptions\Handler->App\Exceptions\{closure}()
+#2 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(369): Illuminate\Foundation\Exceptions\Handler->renderViaCallbacks()
+#3 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(229): Illuminate\Foundation\Exceptions\Handler->render()
+#4 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(206): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#5 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(266): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#6 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#7 {main}
+  thrown in /home/washzamb/staging-api/app/Exceptions/Handler.php on line 78
+[23-Jun-2023 08:16:22 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Error::getStatusCode() in /home/washzamb/staging-api/app/Exceptions/Handler.php:78
+Stack trace:
+#0 /home/washzamb/staging-api/app/Exceptions/Handler.php(51): App\Exceptions\Handler->handleException()
+#1 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(439): App\Exceptions\Handler->App\Exceptions\{closure}()
+#2 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(369): Illuminate\Foundation\Exceptions\Handler->renderViaCallbacks()
+#3 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(229): Illuminate\Foundation\Exceptions\Handler->render()
+#4 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(206): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#5 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(266): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#6 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#7 {main}
+  thrown in /home/washzamb/staging-api/app/Exceptions/Handler.php on line 78
+[23-Jun-2023 08:16:28 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Error::getStatusCode() in /home/washzamb/staging-api/app/Exceptions/Handler.php:78
+Stack trace:
+#0 /home/washzamb/staging-api/app/Exceptions/Handler.php(51): App\Exceptions\Handler->handleException()
+#1 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(439): App\Exceptions\Handler->App\Exceptions\{closure}()
+#2 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(369): Illuminate\Foundation\Exceptions\Handler->renderViaCallbacks()
+#3 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(229): Illuminate\Foundation\Exceptions\Handler->render()
+#4 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(206): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#5 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(266): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#6 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#7 {main}
+  thrown in /home/washzamb/staging-api/app/Exceptions/Handler.php on line 78
+[23-Jun-2023 08:16:38 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Error::getStatusCode() in /home/washzamb/staging-api/app/Exceptions/Handler.php:78
+Stack trace:
+#0 /home/washzamb/staging-api/app/Exceptions/Handler.php(51): App\Exceptions\Handler->handleException()
+#1 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(439): App\Exceptions\Handler->App\Exceptions\{closure}()
+#2 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(369): Illuminate\Foundation\Exceptions\Handler->renderViaCallbacks()
+#3 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(229): Illuminate\Foundation\Exceptions\Handler->render()
+#4 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(206): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#5 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(266): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#6 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#7 {main}
+  thrown in /home/washzamb/staging-api/app/Exceptions/Handler.php on line 78
+[23-Jun-2023 08:18:09 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Error::getStatusCode() in /home/washzamb/staging-api/app/Exceptions/Handler.php:78
+Stack trace:
+#0 /home/washzamb/staging-api/app/Exceptions/Handler.php(51): App\Exceptions\Handler->handleException()
+#1 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(439): App\Exceptions\Handler->App\Exceptions\{closure}()
+#2 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(369): Illuminate\Foundation\Exceptions\Handler->renderViaCallbacks()
+#3 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(229): Illuminate\Foundation\Exceptions\Handler->render()
+#4 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(206): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#5 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(266): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#6 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#7 {main}
+  thrown in /home/washzamb/staging-api/app/Exceptions/Handler.php on line 78
+[23-Jun-2023 08:18:34 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Error::getStatusCode() in /home/washzamb/staging-api/app/Exceptions/Handler.php:78
+Stack trace:
+#0 /home/washzamb/staging-api/app/Exceptions/Handler.php(51): App\Exceptions\Handler->handleException()
+#1 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(439): App\Exceptions\Handler->App\Exceptions\{closure}()
+#2 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(369): Illuminate\Foundation\Exceptions\Handler->renderViaCallbacks()
+#3 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(229): Illuminate\Foundation\Exceptions\Handler->render()
+#4 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(206): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#5 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(266): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#6 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#7 {main}
+  thrown in /home/washzamb/staging-api/app/Exceptions/Handler.php on line 78
+[23-Jun-2023 08:21:50 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Error::getStatusCode() in /home/washzamb/staging-api/app/Exceptions/Handler.php:78
+Stack trace:
+#0 /home/washzamb/staging-api/app/Exceptions/Handler.php(51): App\Exceptions\Handler->handleException()
+#1 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(439): App\Exceptions\Handler->App\Exceptions\{closure}()
+#2 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(369): Illuminate\Foundation\Exceptions\Handler->renderViaCallbacks()
+#3 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(229): Illuminate\Foundation\Exceptions\Handler->render()
+#4 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(206): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#5 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(266): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#6 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#7 {main}
+  thrown in /home/washzamb/staging-api/app/Exceptions/Handler.php on line 78
+[23-Jun-2023 18:01:36 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Error::getStatusCode() in /home/washzamb/staging-api/app/Exceptions/Handler.php:78
+Stack trace:
+#0 /home/washzamb/staging-api/app/Exceptions/Handler.php(51): App\Exceptions\Handler->handleException()
+#1 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(439): App\Exceptions\Handler->App\Exceptions\{closure}()
+#2 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(369): Illuminate\Foundation\Exceptions\Handler->renderViaCallbacks()
+#3 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(229): Illuminate\Foundation\Exceptions\Handler->render()
+#4 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(206): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#5 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(266): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#6 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#7 {main}
+  thrown in /home/washzamb/staging-api/app/Exceptions/Handler.php on line 78
+[27-Jun-2023 06:25:01 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Error::getStatusCode() in /home/washzamb/staging-api/app/Exceptions/Handler.php:78
+Stack trace:
+#0 /home/washzamb/staging-api/app/Exceptions/Handler.php(51): App\Exceptions\Handler->handleException()
+#1 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(439): App\Exceptions\Handler->App\Exceptions\{closure}()
+#2 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(369): Illuminate\Foundation\Exceptions\Handler->renderViaCallbacks()
+#3 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(229): Illuminate\Foundation\Exceptions\Handler->render()
+#4 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(206): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#5 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(266): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#6 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#7 {main}
+  thrown in /home/washzamb/staging-api/app/Exceptions/Handler.php on line 78
+[28-Jun-2023 03:23:41 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Error::getStatusCode() in /home/washzamb/staging-api/app/Exceptions/Handler.php:78
+Stack trace:
+#0 /home/washzamb/staging-api/app/Exceptions/Handler.php(51): App\Exceptions\Handler->handleException()
+#1 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(439): App\Exceptions\Handler->App\Exceptions\{closure}()
+#2 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(369): Illuminate\Foundation\Exceptions\Handler->renderViaCallbacks()
+#3 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(229): Illuminate\Foundation\Exceptions\Handler->render()
+#4 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(206): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#5 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(266): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#6 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#7 {main}
+  thrown in /home/washzamb/staging-api/app/Exceptions/Handler.php on line 78
+[28-Jun-2023 03:24:20 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Error::getStatusCode() in /home/washzamb/staging-api/app/Exceptions/Handler.php:78
+Stack trace:
+#0 /home/washzamb/staging-api/app/Exceptions/Handler.php(51): App\Exceptions\Handler->handleException()
+#1 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(439): App\Exceptions\Handler->App\Exceptions\{closure}()
+#2 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(369): Illuminate\Foundation\Exceptions\Handler->renderViaCallbacks()
+#3 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(229): Illuminate\Foundation\Exceptions\Handler->render()
+#4 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(206): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#5 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(266): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#6 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#7 {main}
+  thrown in /home/washzamb/staging-api/app/Exceptions/Handler.php on line 78
+[28-Jun-2023 03:24:27 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Error::getStatusCode() in /home/washzamb/staging-api/app/Exceptions/Handler.php:78
+Stack trace:
+#0 /home/washzamb/staging-api/app/Exceptions/Handler.php(51): App\Exceptions\Handler->handleException()
+#1 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(439): App\Exceptions\Handler->App\Exceptions\{closure}()
+#2 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(369): Illuminate\Foundation\Exceptions\Handler->renderViaCallbacks()
+#3 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(229): Illuminate\Foundation\Exceptions\Handler->render()
+#4 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(206): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#5 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(266): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#6 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#7 {main}
+  thrown in /home/washzamb/staging-api/app/Exceptions/Handler.php on line 78
+[28-Jun-2023 03:24:27 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Error::getStatusCode() in /home/washzamb/staging-api/app/Exceptions/Handler.php:78
+Stack trace:
+#0 /home/washzamb/staging-api/app/Exceptions/Handler.php(51): App\Exceptions\Handler->handleException()
+#1 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(439): App\Exceptions\Handler->App\Exceptions\{closure}()
+#2 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(369): Illuminate\Foundation\Exceptions\Handler->renderViaCallbacks()
+#3 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(229): Illuminate\Foundation\Exceptions\Handler->render()
+#4 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(206): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#5 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(266): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#6 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#7 {main}
+  thrown in /home/washzamb/staging-api/app/Exceptions/Handler.php on line 78
+[28-Jun-2023 03:24:27 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Error::getStatusCode() in /home/washzamb/staging-api/app/Exceptions/Handler.php:78
+Stack trace:
+#0 /home/washzamb/staging-api/app/Exceptions/Handler.php(51): App\Exceptions\Handler->handleException()
+#1 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(439): App\Exceptions\Handler->App\Exceptions\{closure}()
+#2 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(369): Illuminate\Foundation\Exceptions\Handler->renderViaCallbacks()
+#3 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(229): Illuminate\Foundation\Exceptions\Handler->render()
+#4 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(206): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#5 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(266): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#6 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#7 {main}
+  thrown in /home/washzamb/staging-api/app/Exceptions/Handler.php on line 78
+[28-Jun-2023 03:30:59 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Error::getStatusCode() in /home/washzamb/staging-api/app/Exceptions/Handler.php:78
+Stack trace:
+#0 /home/washzamb/staging-api/app/Exceptions/Handler.php(51): App\Exceptions\Handler->handleException()
+#1 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(439): App\Exceptions\Handler->App\Exceptions\{closure}()
+#2 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(369): Illuminate\Foundation\Exceptions\Handler->renderViaCallbacks()
+#3 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(229): Illuminate\Foundation\Exceptions\Handler->render()
+#4 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(206): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#5 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(266): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#6 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#7 {main}
+  thrown in /home/washzamb/staging-api/app/Exceptions/Handler.php on line 78
+[28-Jun-2023 03:34:06 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Error::getStatusCode() in /home/washzamb/staging-api/app/Exceptions/Handler.php:78
+Stack trace:
+#0 /home/washzamb/staging-api/app/Exceptions/Handler.php(51): App\Exceptions\Handler->handleException()
+#1 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(439): App\Exceptions\Handler->App\Exceptions\{closure}()
+#2 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(369): Illuminate\Foundation\Exceptions\Handler->renderViaCallbacks()
+#3 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(229): Illuminate\Foundation\Exceptions\Handler->render()
+#4 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(206): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#5 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(266): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#6 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#7 {main}
+  thrown in /home/washzamb/staging-api/app/Exceptions/Handler.php on line 78
+[28-Jun-2023 03:34:06 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Error::getStatusCode() in /home/washzamb/staging-api/app/Exceptions/Handler.php:78
+Stack trace:
+#0 /home/washzamb/staging-api/app/Exceptions/Handler.php(51): App\Exceptions\Handler->handleException()
+#1 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(439): App\Exceptions\Handler->App\Exceptions\{closure}()
+#2 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(369): Illuminate\Foundation\Exceptions\Handler->renderViaCallbacks()
+#3 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(229): Illuminate\Foundation\Exceptions\Handler->render()
+#4 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(206): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#5 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(266): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#6 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#7 {main}
+  thrown in /home/washzamb/staging-api/app/Exceptions/Handler.php on line 78
+[28-Jun-2023 03:34:06 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Error::getStatusCode() in /home/washzamb/staging-api/app/Exceptions/Handler.php:78
+Stack trace:
+#0 /home/washzamb/staging-api/app/Exceptions/Handler.php(51): App\Exceptions\Handler->handleException()
+#1 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(439): App\Exceptions\Handler->App\Exceptions\{closure}()
+#2 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(369): Illuminate\Foundation\Exceptions\Handler->renderViaCallbacks()
+#3 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(229): Illuminate\Foundation\Exceptions\Handler->render()
+#4 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(206): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#5 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(266): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#6 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#7 {main}
+  thrown in /home/washzamb/staging-api/app/Exceptions/Handler.php on line 78
+[28-Jun-2023 03:37:00 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Error::getStatusCode() in /home/washzamb/staging-api/app/Exceptions/Handler.php:78
+Stack trace:
+#0 /home/washzamb/staging-api/app/Exceptions/Handler.php(51): App\Exceptions\Handler->handleException()
+#1 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(439): App\Exceptions\Handler->App\Exceptions\{closure}()
+#2 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(369): Illuminate\Foundation\Exceptions\Handler->renderViaCallbacks()
+#3 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(229): Illuminate\Foundation\Exceptions\Handler->render()
+#4 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(206): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#5 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(266): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#6 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#7 {main}
+  thrown in /home/washzamb/staging-api/app/Exceptions/Handler.php on line 78
+[28-Jun-2023 03:37:54 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Error::getStatusCode() in /home/washzamb/staging-api/app/Exceptions/Handler.php:78
+Stack trace:
+#0 /home/washzamb/staging-api/app/Exceptions/Handler.php(51): App\Exceptions\Handler->handleException()
+#1 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(439): App\Exceptions\Handler->App\Exceptions\{closure}()
+#2 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(369): Illuminate\Foundation\Exceptions\Handler->renderViaCallbacks()
+#3 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(229): Illuminate\Foundation\Exceptions\Handler->render()
+#4 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(206): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#5 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(266): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#6 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#7 {main}
+  thrown in /home/washzamb/staging-api/app/Exceptions/Handler.php on line 78
+[28-Jun-2023 03:59:09 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Error::getStatusCode() in /home/washzamb/staging-api/app/Exceptions/Handler.php:78
+Stack trace:
+#0 /home/washzamb/staging-api/app/Exceptions/Handler.php(51): App\Exceptions\Handler->handleException()
+#1 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(439): App\Exceptions\Handler->App\Exceptions\{closure}()
+#2 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(369): Illuminate\Foundation\Exceptions\Handler->renderViaCallbacks()
+#3 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(229): Illuminate\Foundation\Exceptions\Handler->render()
+#4 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(206): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#5 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(266): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#6 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#7 {main}
+  thrown in /home/washzamb/staging-api/app/Exceptions/Handler.php on line 78
+[28-Jun-2023 03:59:41 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Error::getStatusCode() in /home/washzamb/staging-api/app/Exceptions/Handler.php:78
+Stack trace:
+#0 /home/washzamb/staging-api/app/Exceptions/Handler.php(51): App\Exceptions\Handler->handleException()
+#1 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(439): App\Exceptions\Handler->App\Exceptions\{closure}()
+#2 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(369): Illuminate\Foundation\Exceptions\Handler->renderViaCallbacks()
+#3 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(229): Illuminate\Foundation\Exceptions\Handler->render()
+#4 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(206): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#5 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(266): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#6 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#7 {main}
+  thrown in /home/washzamb/staging-api/app/Exceptions/Handler.php on line 78
+[28-Jun-2023 04:04:24 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Error::getStatusCode() in /home/washzamb/staging-api/app/Exceptions/Handler.php:78
+Stack trace:
+#0 /home/washzamb/staging-api/app/Exceptions/Handler.php(51): App\Exceptions\Handler->handleException()
+#1 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(439): App\Exceptions\Handler->App\Exceptions\{closure}()
+#2 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(369): Illuminate\Foundation\Exceptions\Handler->renderViaCallbacks()
+#3 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(229): Illuminate\Foundation\Exceptions\Handler->render()
+#4 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(206): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#5 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(266): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#6 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#7 {main}
+  thrown in /home/washzamb/staging-api/app/Exceptions/Handler.php on line 78
+[28-Jun-2023 04:06:16 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Error::getStatusCode() in /home/washzamb/staging-api/app/Exceptions/Handler.php:78
+Stack trace:
+#0 /home/washzamb/staging-api/app/Exceptions/Handler.php(51): App\Exceptions\Handler->handleException()
+#1 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(439): App\Exceptions\Handler->App\Exceptions\{closure}()
+#2 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(369): Illuminate\Foundation\Exceptions\Handler->renderViaCallbacks()
+#3 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(229): Illuminate\Foundation\Exceptions\Handler->render()
+#4 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(206): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#5 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(266): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#6 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#7 {main}
+  thrown in /home/washzamb/staging-api/app/Exceptions/Handler.php on line 78
+[28-Jun-2023 04:07:54 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Error::getStatusCode() in /home/washzamb/staging-api/app/Exceptions/Handler.php:78
+Stack trace:
+#0 /home/washzamb/staging-api/app/Exceptions/Handler.php(51): App\Exceptions\Handler->handleException()
+#1 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(439): App\Exceptions\Handler->App\Exceptions\{closure}()
+#2 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(369): Illuminate\Foundation\Exceptions\Handler->renderViaCallbacks()
+#3 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(229): Illuminate\Foundation\Exceptions\Handler->render()
+#4 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(206): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#5 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(266): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#6 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#7 {main}
+  thrown in /home/washzamb/staging-api/app/Exceptions/Handler.php on line 78
+[28-Jun-2023 04:12:56 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Error::getStatusCode() in /home/washzamb/staging-api/app/Exceptions/Handler.php:78
+Stack trace:
+#0 /home/washzamb/staging-api/app/Exceptions/Handler.php(51): App\Exceptions\Handler->handleException()
+#1 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(439): App\Exceptions\Handler->App\Exceptions\{closure}()
+#2 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(369): Illuminate\Foundation\Exceptions\Handler->renderViaCallbacks()
+#3 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(229): Illuminate\Foundation\Exceptions\Handler->render()
+#4 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(206): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#5 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(266): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#6 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#7 {main}
+  thrown in /home/washzamb/staging-api/app/Exceptions/Handler.php on line 78
+[28-Jun-2023 04:15:48 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Error::getStatusCode() in /home/washzamb/staging-api/app/Exceptions/Handler.php:78
+Stack trace:
+#0 /home/washzamb/staging-api/app/Exceptions/Handler.php(51): App\Exceptions\Handler->handleException()
+#1 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(439): App\Exceptions\Handler->App\Exceptions\{closure}()
+#2 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(369): Illuminate\Foundation\Exceptions\Handler->renderViaCallbacks()
+#3 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(229): Illuminate\Foundation\Exceptions\Handler->render()
+#4 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(206): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#5 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(266): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#6 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#7 {main}
+  thrown in /home/washzamb/staging-api/app/Exceptions/Handler.php on line 78
+[28-Jun-2023 04:15:59 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Error::getStatusCode() in /home/washzamb/staging-api/app/Exceptions/Handler.php:78
+Stack trace:
+#0 /home/washzamb/staging-api/app/Exceptions/Handler.php(51): App\Exceptions\Handler->handleException()
+#1 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(439): App\Exceptions\Handler->App\Exceptions\{closure}()
+#2 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(369): Illuminate\Foundation\Exceptions\Handler->renderViaCallbacks()
+#3 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(229): Illuminate\Foundation\Exceptions\Handler->render()
+#4 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(206): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#5 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(266): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#6 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#7 {main}
+  thrown in /home/washzamb/staging-api/app/Exceptions/Handler.php on line 78
+[28-Jun-2023 04:16:14 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Error::getStatusCode() in /home/washzamb/staging-api/app/Exceptions/Handler.php:78
+Stack trace:
+#0 /home/washzamb/staging-api/app/Exceptions/Handler.php(51): App\Exceptions\Handler->handleException()
+#1 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(439): App\Exceptions\Handler->App\Exceptions\{closure}()
+#2 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(369): Illuminate\Foundation\Exceptions\Handler->renderViaCallbacks()
+#3 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(229): Illuminate\Foundation\Exceptions\Handler->render()
+#4 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(206): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#5 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(266): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#6 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#7 {main}
+  thrown in /home/washzamb/staging-api/app/Exceptions/Handler.php on line 78
+[28-Jun-2023 04:17:25 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Error::getStatusCode() in /home/washzamb/staging-api/app/Exceptions/Handler.php:78
+Stack trace:
+#0 /home/washzamb/staging-api/app/Exceptions/Handler.php(51): App\Exceptions\Handler->handleException()
+#1 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(439): App\Exceptions\Handler->App\Exceptions\{closure}()
+#2 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(369): Illuminate\Foundation\Exceptions\Handler->renderViaCallbacks()
+#3 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(229): Illuminate\Foundation\Exceptions\Handler->render()
+#4 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(206): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#5 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(266): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#6 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#7 {main}
+  thrown in /home/washzamb/staging-api/app/Exceptions/Handler.php on line 78
+[28-Jun-2023 04:20:00 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Error::getStatusCode() in /home/washzamb/staging-api/app/Exceptions/Handler.php:78
+Stack trace:
+#0 /home/washzamb/staging-api/app/Exceptions/Handler.php(51): App\Exceptions\Handler->handleException()
+#1 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(439): App\Exceptions\Handler->App\Exceptions\{closure}()
+#2 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(369): Illuminate\Foundation\Exceptions\Handler->renderViaCallbacks()
+#3 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(229): Illuminate\Foundation\Exceptions\Handler->render()
+#4 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(206): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#5 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(266): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#6 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#7 {main}
+  thrown in /home/washzamb/staging-api/app/Exceptions/Handler.php on line 78
+[28-Jun-2023 04:24:35 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Error::getStatusCode() in /home/washzamb/staging-api/app/Exceptions/Handler.php:78
+Stack trace:
+#0 /home/washzamb/staging-api/app/Exceptions/Handler.php(51): App\Exceptions\Handler->handleException()
+#1 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(439): App\Exceptions\Handler->App\Exceptions\{closure}()
+#2 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(369): Illuminate\Foundation\Exceptions\Handler->renderViaCallbacks()
+#3 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(229): Illuminate\Foundation\Exceptions\Handler->render()
+#4 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(206): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#5 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(266): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#6 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#7 {main}
+  thrown in /home/washzamb/staging-api/app/Exceptions/Handler.php on line 78
+[06-Jul-2023 09:43:11 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Error::getStatusCode() in /home/washzamb/staging-api/app/Exceptions/Handler.php:78
+Stack trace:
+#0 /home/washzamb/staging-api/app/Exceptions/Handler.php(51): App\Exceptions\Handler->handleException()
+#1 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(439): App\Exceptions\Handler->App\Exceptions\{closure}()
+#2 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(369): Illuminate\Foundation\Exceptions\Handler->renderViaCallbacks()
+#3 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(229): Illuminate\Foundation\Exceptions\Handler->render()
+#4 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(206): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#5 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(266): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#6 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#7 {main}
+  thrown in /home/washzamb/staging-api/app/Exceptions/Handler.php on line 78
+[06-Jul-2023 09:43:15 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Error::getStatusCode() in /home/washzamb/staging-api/app/Exceptions/Handler.php:78
+Stack trace:
+#0 /home/washzamb/staging-api/app/Exceptions/Handler.php(51): App\Exceptions\Handler->handleException()
+#1 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(439): App\Exceptions\Handler->App\Exceptions\{closure}()
+#2 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(369): Illuminate\Foundation\Exceptions\Handler->renderViaCallbacks()
+#3 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(229): Illuminate\Foundation\Exceptions\Handler->render()
+#4 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(206): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#5 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(266): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#6 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#7 {main}
+  thrown in /home/washzamb/staging-api/app/Exceptions/Handler.php on line 78
+[06-Jul-2023 09:43:15 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Error::getStatusCode() in /home/washzamb/staging-api/app/Exceptions/Handler.php:78
+Stack trace:
+#0 /home/washzamb/staging-api/app/Exceptions/Handler.php(51): App\Exceptions\Handler->handleException()
+#1 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(439): App\Exceptions\Handler->App\Exceptions\{closure}()
+#2 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(369): Illuminate\Foundation\Exceptions\Handler->renderViaCallbacks()
+#3 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(229): Illuminate\Foundation\Exceptions\Handler->render()
+#4 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(206): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#5 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(266): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#6 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#7 {main}
+  thrown in /home/washzamb/staging-api/app/Exceptions/Handler.php on line 78
+[06-Jul-2023 09:43:15 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Error::getStatusCode() in /home/washzamb/staging-api/app/Exceptions/Handler.php:78
+Stack trace:
+#0 /home/washzamb/staging-api/app/Exceptions/Handler.php(51): App\Exceptions\Handler->handleException()
+#1 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(439): App\Exceptions\Handler->App\Exceptions\{closure}()
+#2 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(369): Illuminate\Foundation\Exceptions\Handler->renderViaCallbacks()
+#3 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(229): Illuminate\Foundation\Exceptions\Handler->render()
+#4 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(206): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#5 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(266): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#6 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#7 {main}
+  thrown in /home/washzamb/staging-api/app/Exceptions/Handler.php on line 78
+[06-Jul-2023 15:25:22 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Error::getStatusCode() in /home/washzamb/staging-api/app/Exceptions/Handler.php:78
+Stack trace:
+#0 /home/washzamb/staging-api/app/Exceptions/Handler.php(51): App\Exceptions\Handler->handleException()
+#1 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(439): App\Exceptions\Handler->App\Exceptions\{closure}()
+#2 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(369): Illuminate\Foundation\Exceptions\Handler->renderViaCallbacks()
+#3 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(229): Illuminate\Foundation\Exceptions\Handler->render()
+#4 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(206): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#5 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(266): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#6 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#7 {main}
+  thrown in /home/washzamb/staging-api/app/Exceptions/Handler.php on line 78
+[06-Jul-2023 15:26:51 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Error::getStatusCode() in /home/washzamb/staging-api/app/Exceptions/Handler.php:78
+Stack trace:
+#0 /home/washzamb/staging-api/app/Exceptions/Handler.php(51): App\Exceptions\Handler->handleException()
+#1 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(439): App\Exceptions\Handler->App\Exceptions\{closure}()
+#2 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(369): Illuminate\Foundation\Exceptions\Handler->renderViaCallbacks()
+#3 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(229): Illuminate\Foundation\Exceptions\Handler->render()
+#4 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(206): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#5 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(266): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#6 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#7 {main}
+  thrown in /home/washzamb/staging-api/app/Exceptions/Handler.php on line 78
+[06-Jul-2023 17:09:22 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Error::getStatusCode() in /home/washzamb/staging-api/app/Exceptions/Handler.php:78
+Stack trace:
+#0 /home/washzamb/staging-api/app/Exceptions/Handler.php(51): App\Exceptions\Handler->handleException()
+#1 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(439): App\Exceptions\Handler->App\Exceptions\{closure}()
+#2 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(369): Illuminate\Foundation\Exceptions\Handler->renderViaCallbacks()
+#3 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(229): Illuminate\Foundation\Exceptions\Handler->render()
+#4 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(206): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#5 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(266): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#6 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#7 {main}
+  thrown in /home/washzamb/staging-api/app/Exceptions/Handler.php on line 78
+[06-Jul-2023 17:09:35 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Error::getStatusCode() in /home/washzamb/staging-api/app/Exceptions/Handler.php:78
+Stack trace:
+#0 /home/washzamb/staging-api/app/Exceptions/Handler.php(51): App\Exceptions\Handler->handleException()
+#1 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(439): App\Exceptions\Handler->App\Exceptions\{closure}()
+#2 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(369): Illuminate\Foundation\Exceptions\Handler->renderViaCallbacks()
+#3 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(229): Illuminate\Foundation\Exceptions\Handler->render()
+#4 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(206): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#5 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(266): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#6 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#7 {main}
+  thrown in /home/washzamb/staging-api/app/Exceptions/Handler.php on line 78
+[06-Jul-2023 17:09:40 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Error::getStatusCode() in /home/washzamb/staging-api/app/Exceptions/Handler.php:78
+Stack trace:
+#0 /home/washzamb/staging-api/app/Exceptions/Handler.php(51): App\Exceptions\Handler->handleException()
+#1 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(439): App\Exceptions\Handler->App\Exceptions\{closure}()
+#2 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(369): Illuminate\Foundation\Exceptions\Handler->renderViaCallbacks()
+#3 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(229): Illuminate\Foundation\Exceptions\Handler->render()
+#4 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(206): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#5 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(266): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#6 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#7 {main}
+  thrown in /home/washzamb/staging-api/app/Exceptions/Handler.php on line 78
+[06-Jul-2023 20:39:32 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Error::getStatusCode() in /home/washzamb/staging-api/app/Exceptions/Handler.php:78
+Stack trace:
+#0 /home/washzamb/staging-api/app/Exceptions/Handler.php(51): App\Exceptions\Handler->handleException()
+#1 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(439): App\Exceptions\Handler->App\Exceptions\{closure}()
+#2 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(369): Illuminate\Foundation\Exceptions\Handler->renderViaCallbacks()
+#3 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(229): Illuminate\Foundation\Exceptions\Handler->render()
+#4 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(206): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#5 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(266): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#6 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#7 {main}
+  thrown in /home/washzamb/staging-api/app/Exceptions/Handler.php on line 78
+[07-Jul-2023 15:53:18 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Error::getStatusCode() in /home/washzamb/staging-api/app/Exceptions/Handler.php:78
+Stack trace:
+#0 /home/washzamb/staging-api/app/Exceptions/Handler.php(51): App\Exceptions\Handler->handleException()
+#1 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(439): App\Exceptions\Handler->App\Exceptions\{closure}()
+#2 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(369): Illuminate\Foundation\Exceptions\Handler->renderViaCallbacks()
+#3 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(229): Illuminate\Foundation\Exceptions\Handler->render()
+#4 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(206): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#5 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(266): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#6 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#7 {main}
+  thrown in /home/washzamb/staging-api/app/Exceptions/Handler.php on line 78
+[07-Jul-2023 15:53:32 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Error::getStatusCode() in /home/washzamb/staging-api/app/Exceptions/Handler.php:78
+Stack trace:
+#0 /home/washzamb/staging-api/app/Exceptions/Handler.php(51): App\Exceptions\Handler->handleException()
+#1 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(439): App\Exceptions\Handler->App\Exceptions\{closure}()
+#2 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(369): Illuminate\Foundation\Exceptions\Handler->renderViaCallbacks()
+#3 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(229): Illuminate\Foundation\Exceptions\Handler->render()
+#4 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(206): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#5 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(266): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#6 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#7 {main}
+  thrown in /home/washzamb/staging-api/app/Exceptions/Handler.php on line 78
+[07-Jul-2023 15:53:38 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Error::getStatusCode() in /home/washzamb/staging-api/app/Exceptions/Handler.php:78
+Stack trace:
+#0 /home/washzamb/staging-api/app/Exceptions/Handler.php(51): App\Exceptions\Handler->handleException()
+#1 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(439): App\Exceptions\Handler->App\Exceptions\{closure}()
+#2 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(369): Illuminate\Foundation\Exceptions\Handler->renderViaCallbacks()
+#3 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(229): Illuminate\Foundation\Exceptions\Handler->render()
+#4 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(206): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#5 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(266): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#6 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#7 {main}
+  thrown in /home/washzamb/staging-api/app/Exceptions/Handler.php on line 78
+[08-Jul-2023 12:25:02 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Error::getStatusCode() in /home/washzamb/staging-api/app/Exceptions/Handler.php:78
+Stack trace:
+#0 /home/washzamb/staging-api/app/Exceptions/Handler.php(51): App\Exceptions\Handler->handleException()
+#1 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(439): App\Exceptions\Handler->App\Exceptions\{closure}()
+#2 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(369): Illuminate\Foundation\Exceptions\Handler->renderViaCallbacks()
+#3 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(229): Illuminate\Foundation\Exceptions\Handler->render()
+#4 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(206): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#5 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(266): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#6 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#7 {main}
+  thrown in /home/washzamb/staging-api/app/Exceptions/Handler.php on line 78
+[08-Jul-2023 12:25:06 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Error::getStatusCode() in /home/washzamb/staging-api/app/Exceptions/Handler.php:78
+Stack trace:
+#0 /home/washzamb/staging-api/app/Exceptions/Handler.php(51): App\Exceptions\Handler->handleException()
+#1 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(439): App\Exceptions\Handler->App\Exceptions\{closure}()
+#2 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(369): Illuminate\Foundation\Exceptions\Handler->renderViaCallbacks()
+#3 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(229): Illuminate\Foundation\Exceptions\Handler->render()
+#4 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(206): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#5 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(266): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#6 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#7 {main}
+  thrown in /home/washzamb/staging-api/app/Exceptions/Handler.php on line 78
+[08-Jul-2023 12:25:07 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Error::getStatusCode() in /home/washzamb/staging-api/app/Exceptions/Handler.php:78
+Stack trace:
+#0 /home/washzamb/staging-api/app/Exceptions/Handler.php(51): App\Exceptions\Handler->handleException()
+#1 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(439): App\Exceptions\Handler->App\Exceptions\{closure}()
+#2 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(369): Illuminate\Foundation\Exceptions\Handler->renderViaCallbacks()
+#3 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(229): Illuminate\Foundation\Exceptions\Handler->render()
+#4 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(206): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#5 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(266): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#6 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#7 {main}
+  thrown in /home/washzamb/staging-api/app/Exceptions/Handler.php on line 78
+[08-Jul-2023 12:25:07 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Error::getStatusCode() in /home/washzamb/staging-api/app/Exceptions/Handler.php:78
+Stack trace:
+#0 /home/washzamb/staging-api/app/Exceptions/Handler.php(51): App\Exceptions\Handler->handleException()
+#1 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(439): App\Exceptions\Handler->App\Exceptions\{closure}()
+#2 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(369): Illuminate\Foundation\Exceptions\Handler->renderViaCallbacks()
+#3 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(229): Illuminate\Foundation\Exceptions\Handler->render()
+#4 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(206): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#5 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(266): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#6 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#7 {main}
+  thrown in /home/washzamb/staging-api/app/Exceptions/Handler.php on line 78
+[08-Jul-2023 12:25:09 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Error::getStatusCode() in /home/washzamb/staging-api/app/Exceptions/Handler.php:78
+Stack trace:
+#0 /home/washzamb/staging-api/app/Exceptions/Handler.php(51): App\Exceptions\Handler->handleException()
+#1 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(439): App\Exceptions\Handler->App\Exceptions\{closure}()
+#2 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(369): Illuminate\Foundation\Exceptions\Handler->renderViaCallbacks()
+#3 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(229): Illuminate\Foundation\Exceptions\Handler->render()
+#4 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(206): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#5 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(266): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#6 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#7 {main}
+  thrown in /home/washzamb/staging-api/app/Exceptions/Handler.php on line 78
+[08-Jul-2023 12:25:11 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Error::getStatusCode() in /home/washzamb/staging-api/app/Exceptions/Handler.php:78
+Stack trace:
+#0 /home/washzamb/staging-api/app/Exceptions/Handler.php(51): App\Exceptions\Handler->handleException()
+#1 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(439): App\Exceptions\Handler->App\Exceptions\{closure}()
+#2 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(369): Illuminate\Foundation\Exceptions\Handler->renderViaCallbacks()
+#3 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(229): Illuminate\Foundation\Exceptions\Handler->render()
+#4 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(206): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#5 /home/washzamb/staging-api/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(266): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#6 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#7 {main}
+  thrown in /home/washzamb/staging-api/app/Exceptions/Handler.php on line 78

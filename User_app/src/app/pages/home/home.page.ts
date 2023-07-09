@@ -19,6 +19,7 @@ export class HomePage implements OnInit {
   addressTitle: any = '';
   apiCalled: boolean = false;
   list: any[] = [];
+  serviceList:any[] = [];
   distanceType: any = '';
   constructor(
     public util: UtilService,
@@ -52,6 +53,10 @@ export class HomePage implements OnInit {
             : (parseFloat(a.distance) > parseFloat(b.distance) ? 1 : 0));
         console.log(this.list);
       }
+      if(this.list){
+       this.getService(this.list[0].uid);
+
+      }
     }, error => {
       console.log(error);
       this.list = [];
@@ -70,12 +75,13 @@ export class HomePage implements OnInit {
   }
 
   getService(id: any) {
-    const param: NavigationExtras = {
-      queryParams: {
-        "id": id
-      }
-    };
-    this.util.navigateToPage('services', param);
+    this.getCategories(id);
+    // const param: NavigationExtras = {
+    //   queryParams: {
+    //     "id": id
+    //   }
+    // };
+    // this.util.navigateToPage('services', param);
   }
 
   async openSearch() {
@@ -140,5 +146,34 @@ export class HomePage implements OnInit {
     } else {
       this.util.navigateRoot('login');
     }
+  }
+  onCategories(cateId: any) {
+    const param: NavigationExtras = {
+      queryParams: {
+        "cate_id": cateId,
+        "store_id": this.list[0].uid
+      }
+    };
+    this.util.navigateToPage('categories', param);
+  }
+  
+  getCategories(id:any) {
+    this.apiCalled = false;
+    this.serviceList = [];
+    this.api.post_public('v1/categories/storeCategories', { "id": id }).then((data: any) => {
+      console.log(data);
+      this.apiCalled = true;
+      if (data && data.status && data.status == 200 && data.data) {
+        this.serviceList = data.data;
+      }
+    }, error => {
+      console.log(error);
+      this.apiCalled = true;
+      this.util.apiErrorHandler(error);
+    }).catch((error: any) => {
+      console.log(error);
+      this.apiCalled = true;
+      this.util.apiErrorHandler(error);
+    });
   }
 }

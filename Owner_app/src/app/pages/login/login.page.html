@@ -100,9 +100,9 @@
         <span *ngIf="!isLogin"> {{util.translate('SIGN IN')}} </span>
       </ion-button>
 
-      <ion-button (click)="onRegister()" expand="block" fill="clear" shape="round">
+      <!-- <ion-button (click)="onRegister()" expand="block" fill="clear" shape="round">
         {{util.translate("Don't have account? Create Account")}}
-      </ion-button>
+      </ion-button> -->
     </form>
 
     <form #loginForm="ngForm" class="animated animatedFadeInUp fadeInUp" *ngIf="util.settingInfo.freelancer_login == 2">
