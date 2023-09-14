@@ -67,7 +67,7 @@ Route::prefix('/v1')->group(function () {
     });
 
     // Main Admin Routes
-    Route::group(['middleware' => ['admin_auth', 'jwt.auth']], function () {
+    Route::group(['middleware' => ['admin_auth', 'jwt.auth', 'cors']], function () {
         Route::post('auth/admin_logout', [LogoutController::class, 'logout']);
         Route::get('users/admins', [AuthController::class, 'admins']);
         Route::post('profile/update', [AuthController::class,'update']);
@@ -184,6 +184,7 @@ Route::prefix('/v1')->group(function () {
         Route::post('notification/sendToDrivers', [ProfileController::class, 'sendToDrivers']);
 
         Route::post('users/sendMailToUsers', [ProfileController::class, 'sendMailToUsers']);
+
         Route::post('users/sendMailToAll', [ProfileController::class, 'sendMailToAll']);
         Route::post('users/sendMailToStores', [ProfileController::class, 'sendMailToStores']);
         Route::post('users/sendMailToDrivers', [ProfileController::class, 'sendMailToDrivers']);

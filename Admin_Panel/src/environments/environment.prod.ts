@@ -8,6 +8,6 @@
 */
 export const environment = {
   production: true,
-  baseUrl: 'https://staging-api.washzambia.com/public/api/',
-  imageUrl: 'https://staging-api.washzambia.com/public/storage/images/',
+  baseUrl: 'https://api-l.gopifat.com/public/api/',
+  imageUrl: 'https://api-l.gopifat.com/public/storage/images/',
 };

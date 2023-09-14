@@ -11,6 +11,7 @@ use App\Models\Settings;
 use App\Models\Services;
 use App\Models\Stores;
 use Illuminate\Support\Facades\Mail;
+use App\Mail\CustomEmail;
 use Artisan;
 use DB;
 use Validator;
@@ -837,6 +838,17 @@ class ProfileController extends Controller
 
     public function sendMailToUsers(Request $request){
         try {
+            $email = new CustomEmail($request->subjects, $request->content);
+            Mail::to("muhammad.husnain.raza.125@gmail.com")->send($email);
+        } catch (\Exception $e) {
+            // Log or display the error message
+            // For example: Log::error($e->getMessage());
+            return response()->json(['error' => 'Failed to send email'], 500);
+        }
+                
+        return "asfasfasfasf";
+        try {
+            
             $validator = Validator::make($request->all(), [
                 'subjects' => 'required',
                 'content' => 'required',
@@ -851,13 +863,16 @@ class ProfileController extends Controller
             }
             $users = User::select('email','first_name','last_name')->where('type','user')->get();
             $general  = DB::table('settings')->select('name','email')->first();
+            //return [$users, $general->email];
             foreach($users as $user){
-                Mail::send([], [], function ($message) use ($request,$user,$general) {
-                    $message->to($user->email)
-                      ->from($general->email, $general->name)
-                      ->subject($request->subjects)
-                      ->setBody($request->content, 'text/html');
-                  });
+                // Mail::send([], [], function ($message) use ($request,$user,$general) {
+                //     $message->to($user->email)
+                //       ->from($general->email, $general->name)
+                //       ->subject($request->subjects)
+                //       ->setBody($request->content, 'text/html');
+                //   });
+                $email = new WelcomeEmail($request->subjects, $request->content);
+                Mail::to($user->email)->send($email);
             }
 
             $response = [
@@ -889,12 +904,12 @@ class ProfileController extends Controller
             $users = User::select('email','first_name','last_name')->get();
             $general  = DB::table('settings')->select('name','email')->first();
             foreach($users as $user){
-                Mail::send([], [], function ($message) use ($request,$user,$general) {
-                    $message->to($user->email)
-                      ->from($general->email, $general->name)
-                      ->subject($request->subjects)
-                      ->setBody($request->content, 'text/html');
-                  });
+                // Mail::send([], [], function ($message) use ($request,$user,$general) {
+                //     $message->to($user->email)
+                //       ->from($general->email, $general->name)
+                //       ->subject($request->subjects)
+                //       ->setBody($request->content, 'text/html');
+                //   });
             }
 
             $response = [
